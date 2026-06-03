@@ -1,0 +1,30 @@
+% !TeX program = lualatex
+\documentclass[11pt,a4paper,withhyper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1.25cm, right=1.25cm, top=1.5cm, bottom=1.5cm, columnsep=1.2cm}
+
+\usepackage{microtype}
+\usepackage{paracol}
+\setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{MidnightBlue}{HTML}{006593}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{SlateGrey}
+\colorlet{heading}{MidnightBlue}
+\colorlet{headingrule}{MidnightBlue}
+\colorlet{tagline}{MidnightBlue}
+\colorlet{accent}{MidnightBlue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\begin{document}
+\input{targets/trustworthy-cps-researcher.tex}
+\end{document}
